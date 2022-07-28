@@ -12,7 +12,12 @@ public class StephenHawking {
 	 * *****************/
 	
 	// 1. make a main method and put steps 2, 3 & 4 inside it
-	
+	public static void main(String[] args) {
+		for (int count = 0; count <20; count+=1) {
+	String sentence =	JOptionPane.showInputDialog("type sentence");
+		speak (sentence);
+		}
+	}
 	// 4. Use a for loop to repeat steps #2 and #3, a lot of times
 	
 	// 2. ask the user for a sentence
